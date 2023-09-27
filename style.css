@@ -287,3 +287,6 @@ body{
     position: relative;
     bottom: 80px;
 }
+#trans img{
+    margin-left: 120px;
+}
