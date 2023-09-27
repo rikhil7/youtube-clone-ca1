@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    display: flex;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#sidebar{
+    height: 100vh;
+    width: 16vw;
+    /* border: 2px solid black; */
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    /* position: fixed; */
+}
+#section1 #ham{
+    width: 2vw;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+#section1 #logo{
+    margin-left: 16px;
+    position: relative;
+    bottom: 3%;
+    width: 7vw;
+}
+.invert{
+    filter: invert(1);
+}
+#s1home{
+    margin-top: 10%;
+    margin-left: 7%;
+}
+#s1home img, #s1icons img{
+    width: 1.5vw;
+}
+#s1home, #s1icons{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+#s1text{
+    margin-left: 20px;
+    margin-top: 3.4px;
+    font-weight: 200;
+    font-size: 13.8px;
+}
+#s1icons{
+    margin-top: 12px;
+    margin-left: 7%;
+}
+#sections{
+    margin-top: 12%;
+    border-color: rgba(107, 107, 107, 0.519);
+    margin-right: 20px;
+}
+#section2{
+    margin-top: 15px;
+}
+#section3{
+    margin-top: 15px;
+}
+#section3 p{
+    color: rgb(155, 155, 155);
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 7%;
+}
+.dot {
+    position: relative;
+    bottom: 1px;
+    margin-left: 90px;
+    height: 4px;
+    width: 4px;
+    background-color: #008cff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot1{
+    position: relative;
+    bottom: 2px;
+    margin-left: 28px;
+    height: 4px;
+    width: 4px;
+    background-color: #008cff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    position: relative;
+    bottom: 2px;
+    margin-left: 10px;
+    height: 4px;
+    width: 4px;
+    background-color: #008cff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3{
+    position: relative;
+    bottom: 2px;
+    margin-left: 70px;
+    height: 4px;
+    width: 4px;
+    background-color: #008cff;
+    border-radius: 50%;
+    display: inline-block;
+}
+#videomain{
+    background-color: rgb(24,24,24);
+    height: 100vh;
+    width: 85.5vw;
+}
+#mains1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#mains1 input{
+    height: 30px;
+    background-color: transparent;
+    border-left: 1px solid rgb(66, 66, 66);
+    border-bottom: 1px solid rgb(66, 66, 66);
+    border-top: 1px solid rgb(66, 66, 66);
+    border-right: none;
+    width: 28vw;
+    color: white;
+}
+#searchbtn{
+    background-color: rgb(66, 66, 66);
+    height: 32px;
+    width: 45px;
+    border-radius: 0 3px 3px 0;
+    padding-left: 15px;
+    /* padding-top: 3px; */
+}
+#searchbtn img{
+    width: 28px;
+    margin-top: 2px;
+}
+#voice{
+    margin-left: 22px;
+}
+#accountopts{
+    /* margin-left: 500px; */
+    display: flex;
+    justify-content: space-between;
+    width: 150px
+}
+#accountopts img{
+    width: 27px;
+}
+#searchmain{
+    display: flex;
+}
+#aftermains1{
+    margin-top: 15px;
+    margin-left: 10px;
+    border-color: rgba(107, 107, 107, 0.519);;
+}
+#mains2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    margin-right: 40px;
+}
+#mains2btn{
+    background-color: rgb(56,56,56);
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    /* margin-right: 50px; */
+    margin-right: 15px;
+    color: white;
+}
+.all{
+    width: 50px;
+}
+.coke{
+    width: 120px;
+}
+.ux{
+    width: 50px;
+}
+.case{
+    width: 85px;
+}
+.music{
+    width: 75px;
+}
+.lofi{
+    width: 100px;
+}
+.tour{
+    width: 70px;
+}
+.sm{
+    width: 100px;
+}
+.tech{
+    width: 90px;
+}
+.i13{
+    width: 80px;
+}
+.ui{
+    width: 190px;
+}
+#mains3{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-left: 25px;
+    margin-right: 30px;
+}
+#viddes{
+    margin-top: 7px;
+}
+#viddestext{
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+#channeldetails{
+    font-size: 12px;
+    margin-left: 41px;
+    margin-top: 8px;
+    color: rgb(155, 155, 155);
+}
+#thumb{
+    width: 290px;
+}
+#r1,#r2,#r3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#main{
+    overflow-y: hidden;
+}
